@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/marwamelfeky/AmwalyPod.git", :tag => "1.0" }
+  spec.source       = { :git => "https://github.com/marwamelfeky/AmwalyPod.git", :branch => "main", :tag => "1.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
