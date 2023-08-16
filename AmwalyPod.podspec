@@ -67,10 +67,10 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "12.1"
+  spec.ios.deployment_target = "11.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
-  # spec.tvos.deployment_target = "9.0"
+  #spec.tvos.deployment_target = "11.0"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -93,11 +93,7 @@ Pod::Spec.new do |spec|
   spec.source_files  = "amwalpay_ios_sdk-main/**/*.h"
   spec.exclude_files = "Classes/Exclude"
   spec.dependency 'Flutter'
-spec.subspec 'AmwalyPod' do |cs|
 
-  spec.dependency 'Flutter'
-  spec.dependency 'FlutterPluginRegistrant'
-end
   # spec.public_header_files = "Classes/**/*.h"
 
 
