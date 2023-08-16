@@ -93,7 +93,11 @@ Pod::Spec.new do |spec|
   spec.source_files  = "amwalpay_ios_sdk-main/**/*.h"
   spec.exclude_files = "Classes/Exclude"
   spec.dependency 'Flutter'
+spec.subspec 'AmwalyPod' do |cs|
 
+  spec.dependency 'Flutter'
+  spec.dependency 'FlutterPluginRegistrant'
+end
   # spec.public_header_files = "Classes/**/*.h"
 
 
